@@ -35,7 +35,7 @@ function Scanner() {
     <div className="Scanner">
       {scanResult ? (
         <div>
-          Success: <a href={scanResult} target="_blank" rel="noopener noreferrer">{scanResult}</a>
+        Success: <a href={scanResult}>{scanResult}</a>
         </div>
       ) : (
         <div id="reader"></div>

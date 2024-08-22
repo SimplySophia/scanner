@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>QR Code Scanning in React</h1>
+      <h1>Scan QR Code</h1>
       <Scanner/>
     </div>
   );
